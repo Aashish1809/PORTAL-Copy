@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aashish.portal">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Alumni Portal"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ImageFullDisplay"></activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".otp3"
+            android:label="OTP"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Picture"
+            android:label="@string/title_activity_picture"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Waiting"
+            android:label="@string/title_activity_waiting"
+            android:parentActivityName=".Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminLogged"
+            android:label="@string/title_activity_admin_logged"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManagerLogged"
+            android:label="@string/title_activity_manager_logged"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlumniLogged"
+            android:label="@string/title_activity_alumni_logged"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentLogged"
+            android:label="@string/title_activity_student_logged"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentVerify"
+            android:label="@string/title_activity_student_verify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlumniVerify"
+            android:label="@string/title_activity_alumni_verify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventsVerify"
+            android:label="@string/title_activity_event_verify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AlumniDetailsView"
+            android:label="@string/title_activity_alumni_details_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventsView"
+            android:label="@string/title_activity_events_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddEvent"
+            android:label="@string/title_activity_add_event"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentDetailsView"
+            android:label="@string/title_activity_student_details_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailsDisplayE"
+            android:label="@string/title_activity_details_display_e"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SendPushNotification"
+            android:label="SendPushNotification"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".DetailsDisplay"
+            android:label="@string/title_activity_details_display"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailsDisplay2"
+            android:label="@string/title_activity_details_display2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ConfirmedEventDisplay"
+            android:label="@string/title_activity_confirmed_event_display"
+            android:parentActivityName=".ManagerLogged"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ConfirmedStudentsDisplay" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".change" />
+        <activity android:name=".ConfirmedAlumiDisplay" />
+        <activity android:name=".change2" />
+        <activity android:name=".change1" />
+        <activity android:name=".profilepic" />
+        <activity android:name=".sendpushondismiss" />
+        <activity android:name=".forgotpassword" />
+        <activity android:name=".securitycode" />
+        <activity android:name=".forgotmaster" />
+        <activity android:name=".balumni" />
+        <activity android:name=".bstudent" />
+        <activity android:name=".SendPushNotificationalumni" />
+        <activity android:name=".sendpushondismissalumni" />
+        <activity android:name=".SendPushNotificationevent" />
+        <activity android:name=".sendpushondismissevent" />
+        <activity android:name=".forgotpassworda" />
+        <activity android:name=".otp1" />
+        <activity android:name=".otpbackup" />
+    </application>
+
+</manifest>

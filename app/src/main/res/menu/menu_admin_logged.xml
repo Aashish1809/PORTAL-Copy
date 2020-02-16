@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mt.project.saiteja.PORTAL.AdminLogged">
+    <item
+        android:id="@+id/Chagepassword"
+        android:orderInCategory="100"
+        android:title="Change Password"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/notifyalumnus"
+        android:orderInCategory="100"
+        android:title="Broadcast Alumni Notification"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/notifystudent"
+        android:orderInCategory="100"
+        android:title="Broadcast Student Notification"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+</menu>

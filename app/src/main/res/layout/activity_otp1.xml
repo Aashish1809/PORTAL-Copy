@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00d4f0f0"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".otp1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MOBILE NUMBER VERIFICATION"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+
+            android:textSize="24sp" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/otpenterf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="@color/colorAccent"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/otpenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ONE TIME PASSWORD"
+                android:inputType="number" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/black"
+            android:text="VALIDATE MY NUMBER"
+            android:textColor="@android:color/background_light"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "593656821414",
+    "firebase_url": "https://portal-270ae.firebaseio.com",
+    "project_id": "portal-270ae",
+    "storage_bucket": "portal-270ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593656821414:android:2783915bfc3b58df",
+        "android_client_info": {
+          "package_name": "com.example.aashish.portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593656821414-1j8ctv0ead4da3tvg8v6lcfbgdkdh8hd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aashish.portal",
+            "certificate_hash": "057ee858c4ba8ecb89b59794c7bb38f9ae58a1bf"
+          }
+        },
+        {
+          "client_id": "593656821414-vt6odk7h0vn65pgrtrhho38tmu1nbfpl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aashish.portal",
+            "certificate_hash": "40c8153f69bc88647cabcdad6455de6df708dac3"
+          }
+        },
+        {
+          "client_id": "593656821414-7ef9fmfsdp0lu0ho5hm4eq2t3bnr1u51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp0WmDOFMIzhwLtq0iH5wJYBEfq-1nTvA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593656821414-7ef9fmfsdp0lu0ho5hm4eq2t3bnr1u51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
